@@ -74,7 +74,7 @@ Movie.propTypes(여기서 PropTypes는 에러난다) = {
 Link
 --> import { Link } from "react-router-dom"
 (npm install react-router-dom해야 import가능)
-<a href="/"> 와 유사하게 <Link to=".."></Link>사용
+<a href="/"></a> 와 유사하게 <Link to=".."></Link>사용
 to=".."에는 object형식으로도 가능 넘겨줄 pathname 및 state
 Link를 쓰려면 Router안에서 사용해야 유효하다.
 
